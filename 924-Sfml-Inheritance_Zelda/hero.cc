@@ -13,6 +13,8 @@ Hero::Hero()
 	sword_sprite_.setTexture(sword_texture_);
 	sword_sprite_.setPosition(10, 0);
 
+	setScale(2, 2);
+
 }
 
 void Hero::draw(sf::RenderTarget& target, sf::RenderStates states) const
