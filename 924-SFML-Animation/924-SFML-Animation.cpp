@@ -12,6 +12,7 @@ int main()
     //"attackKick" x = "192" y = "512" width = "192" height = "256" / >
     //<SubTexture name="rope" x="1536" y="768" width="192" height="256"/>
 
+
     sf::Sprite sprite_full;
     sprite_full.setTexture(texture_full);
     sprite_full.setTextureRect(sf::IntRect(1536, 768, 192, 256));
